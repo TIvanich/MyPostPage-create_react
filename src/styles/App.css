@@ -8,7 +8,6 @@
     justify-content: center;
 
 }
-
 .App{
     width: 800px;
 }
@@ -19,4 +18,34 @@
     margin-top: 15px;
     justify-content: space-between;
     align-items: center;
+}
+.remove-btn {
+    margin-right: 0.5rem;
+}
+.post-enter {
+    opacity: 0;
+}
+.post-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+.post-exit {
+    opacity: 1;
+}
+.post-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+.page__wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+.page {
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+}
+.page__current {
+    border: 2px solid orange;
+    font-weight: bold;
 }
